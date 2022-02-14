@@ -19,7 +19,7 @@
     <style>
       /* Fixed navbar を利用しているため、 body 部を下げています。 */
       body {
-        min-height: 75rem;
+        min-height: 50rem;
         padding-top: 4.5rem;
       }
 
@@ -84,11 +84,6 @@
               </div>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item">
-                <i class="far fa-envelope fa-fw"></i>
-                メールアドレス設定
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item">
                 <i class="fas fa-sign-out-alt fa-fw"></i>
                 ログアウト
               </a>
@@ -107,14 +102,96 @@
         </div>
       </div>
 
-      <div class="bg-light p-5 rounded">
-        <h1>My original navbar sample</h1>
-        <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
-        <a class="btn btn-lg btn-primary" href="/docs/5.1/components/navbar/" role="button">View navbar docs &raquo;</a>
+      <div class="card">
+        <div class="card-header">
+          YYYY 年 MM 月 DD 日 (D)
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">欠席・遅刻・早退のご連絡</h5>
+          <div class="row">
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioFoo" id="radioFoo1" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="radioFoo1">
+                延長
+              </label>
+            </div>
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioFoo" id="radioFoo2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="radioFoo2">
+                欠席
+              </label>
+            </div>
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioFoo" id="radioFoo3" autocomplete="off">
+              <label class="btn btn-outline-primary" for="radioFoo3">
+                遅刻
+              </label>
+            </div>
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioFoo" id="radioFoo4" autocomplete="off">
+              <label class="btn btn-outline-primary" for="radioFoo4">
+                早退
+              </label>
+            </div>
+          </div>
+          <h5 class="card-title mt-4">朝 バス送迎</h5>
+          <div class="row">
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioBar" id="radioBar1" autocomplete="off">
+              <label class="btn btn-outline-primary" for="radioBar1">
+                いる
+              </label>
+            </div>
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioBar" id="radioBar2" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="radioBar2">
+                いらない
+              </label>
+            </div>
+          </div>
+          <h5 class="card-title mt-4">帰り バス送迎</h5>
+          <div class="row">
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioBaz" id="radioBaz1" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="radioBaz1">
+                いる
+              </label>
+            </div>
+            <div class="col-6 col-md-3 py-1 d-grid">
+              <input type="radio" class="btn-check" name="radioBaz" id="radioBaz2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="radioBaz2">
+                いらない
+              </label>
+            </div>
+          </div>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-1 col-md-3">
+            </div>
+            <div class="col-10 col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">YYYY 年 MM 月 DD 日 (D)</h6>
+                  <div><strong>延長</strong></div>
+                  <div>朝 バス送迎: <strong>いらない</strong></div>
+                  <div>帰り バス送迎: <strong>いる</strong></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 col-md-3">
+            </div>
+          </div>
+          <div class="d-grid mt-4">
+            <button class="btn btn-primary" type="button">
+              <i class="far fa-paper-plane fa-fw"></i>
+              この内容で申請する
+            </button>
+          </div>
+        </div>
       </div>
     </main>
 
-    <footer class="py-3 my-4">
+    <footer class="py-5 my-5">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3 small">
         <li class="nav-item">
           <a href="#" class="nav-link px-2 text-muted">
