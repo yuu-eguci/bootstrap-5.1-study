@@ -48,15 +48,25 @@
 
       /*
         Bootstrap の色を一部編集。
-        NOTE: 通常の Bootstrap の class 構成を変更しなくていいように。
+        NOTE: 他の Bootstrap 既存色を変更するときは、同様に、色を上書きする必要があります。
       */
       .btn-primary {
         background-color: #f67280;
         border-color:  #f67280;
       }
+      .btn-primary:hover {
+        color: #fff;
+        background-color: #c95e68;
+        border-color: #c95e68;
+      }
       .btn-outline-primary {
         color: #f67280;
         border-color: #f67280;
+      }
+      .btn-outline-primary:hover {
+        color: #fff;
+        background-color: #c95e68;
+        border-color: #c95e68;
       }
       .btn-check:checked+.btn-outline-primary {
         color: #fff;
