@@ -66,3 +66,9 @@ table td:hover {
   background-color: #fff6d4;
   border-color: #fff2c9;
 }
+.link-primary {
+  color: #f67280;
+}
+.link-primary:focus, .link-primary:hover {
+  color: #c95e68;
+}
