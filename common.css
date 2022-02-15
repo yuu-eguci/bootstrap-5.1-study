@@ -1,7 +1,7 @@
 /* Fixed navbar を利用しているため、 body 部を下げています。 */
 body {
   min-height: 50rem;
-  padding-top: 4.5rem;
+  padding-top: 5rem;
 }
 
 /*
