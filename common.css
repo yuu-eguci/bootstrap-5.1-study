@@ -33,7 +33,7 @@ table td:hover {
 
 /*
   Bootstrap の色を一部編集。
-  NOTE: 他の Bootstrap 既存色を変更するときは、同様に、色を上書きする必要があります。
+  これをすべて外しても、 Bootstrap default color へ戻るだけです。
 */
 .btn-primary {
   background-color: #f67280;
@@ -71,4 +71,10 @@ table td:hover {
 }
 .link-primary:focus, .link-primary:hover {
   color: #c95e68;
+}
+.bg-info {
+  background-color: #F7AD19!important;
+}
+.bg-warning {
+  background-color: #429EBD!important;
 }
