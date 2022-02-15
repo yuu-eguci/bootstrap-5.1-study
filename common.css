@@ -1,32 +1,32 @@
-/* Fixed navbar を利用しているため、 body 部を下げています。 */
+/* Dedicate body as fixed navbar is used. */
 body {
   min-height: 50rem;
   padding-top: 5rem;
 }
 
 /*
-  幅が狭いとき dropdown-menu を幅いっぱいにするスタイルです。
-  NOTE: 576px は bootstrap の sm の幅。
+  These styles are for dropdown in the navbar.
+  When mobile size, dropdown-menu gets w-100.
+  NOTE: 576px is "sm" of Bootstrap.
 */
 @media (max-width: 576px) {
-  /* .position-static 付与と同効果です。 */
+  /* .position-static */
   nav li.dropdown {
     position: static !important;
   }
-
-  /* .w-100 付与と同効果です。 */
+  /* .w-100 */
   nav div.dropdown-menu {
     width: 99% !important;
   }
 }
 /*
-  平時の幅です。
-  NOTE: bootstrap-datepicker にも dropdown-menu が使われるため、 nav を指定しています。
+  When normal.
 */
 nav div.dropdown-menu {
   width: 20rem;
 }
 
+/* For table. */
 table td:hover {
   background-color: #ffe2e5;
 }
