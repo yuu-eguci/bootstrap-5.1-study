@@ -42,13 +42,18 @@ button.bg-primary:focus {
   border-color: #f67280;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   color: #fff;
   background-color: #f35061;
   border-color: #f24254;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus,
+.btn-check:checked+.btn-outline-primary:focus
+.btn-check:focus+.btn-primary, .btn-check:focus+.btn-outline-primary,
+.btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(246, 114, 128, 0.5);
 }
 
@@ -64,10 +69,7 @@ button.bg-primary:focus {
   border-color: #f23347;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus,
-.btn-check:checked+.btn-outline-primary:focus, .btn-check:focus+.btn-outline-primary {
-  box-shadow: 0 0 0 0.2rem rgba(246, 114, 128, 0.5);
-}
+
 
 .btn-outline-primary {
   color: #f67280;
@@ -81,10 +83,6 @@ button.bg-primary:focus {
   border-color: #f67280;
 }
 
-.btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 114, 128, 0.5);
-}
-
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
   color: #f67280;
   background-color: transparent;
@@ -96,7 +94,7 @@ button.bg-primary:focus {
   border-color: #f67280;
 }
 
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus, .btn-check:focus+.btn, .btn:focus {
   box-shadow: 0 0 0 0.2rem rgba(246, 114, 128, 0.5);
 }
 
