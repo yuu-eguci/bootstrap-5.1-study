@@ -1,0 +1,68 @@
+/* Fixed navbar を利用しているため、 body 部を下げています。 */
+body {
+  min-height: 50rem;
+  padding-top: 4.5rem;
+}
+
+/*
+  幅が狭いとき dropdown-menu を幅いっぱいにするスタイルです。
+  NOTE: 576px は bootstrap の sm の幅。
+*/
+@media (max-width: 576px) {
+  /* .position-static 付与と同効果です。 */
+  nav li.dropdown {
+    position: static !important;
+  }
+
+  /* .w-100 付与と同効果です。 */
+  nav div.dropdown-menu {
+    width: 99% !important;
+  }
+}
+/*
+  平時の幅です。
+  NOTE: bootstrap-datepicker にも dropdown-menu が使われるため、 nav を指定しています。
+*/
+nav div.dropdown-menu {
+  width: 20rem;
+}
+
+table td:hover {
+  background-color: #ffe2e5;
+}
+
+/*
+  Bootstrap の色を一部編集。
+  NOTE: 他の Bootstrap 既存色を変更するときは、同様に、色を上書きする必要があります。
+*/
+.btn-primary {
+  background-color: #f67280;
+  border-color:  #f67280;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #c95e68;
+  border-color: #c95e68;
+}
+.btn-outline-primary {
+  color: #f67280;
+  border-color: #f67280;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #c95e68;
+  border-color: #c95e68;
+}
+.btn-check:checked+.btn-outline-primary {
+  color: #fff;
+  background-color: #f67280;
+  border-color: #f67280;
+}
+.bg-primary {
+  background-color: #f67280!important;
+}
+.alert-primary {
+  color: #664d03;
+  background-color: #fff6d4;
+  border-color: #fff2c9;
+}
