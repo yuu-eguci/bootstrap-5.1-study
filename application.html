@@ -45,6 +45,27 @@
       nav div.dropdown-menu {
         width: 20rem;
       }
+
+      /*
+        Bootstrap の色を一部編集。
+        NOTE: 通常の Bootstrap の class 構成を変更しなくていいように。
+      */
+      .btn-primary {
+        background-color: #f67280;
+        border-color:  #f67280;
+      }
+      .btn-outline-primary {
+        color: #f67280;
+        border-color: #f67280;
+      }
+      .btn-check:checked+.btn-outline-primary {
+        color: #fff;
+        background-color: #f67280;
+        border-color: #f67280;
+      }
+      .bg-primary {
+        background-color: #f67280!important;
+      }
     </style>
 
     <title>application.html</title>
