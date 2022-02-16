@@ -1,24 +1,20 @@
-Bootstrap 5.1 design study
+保育園システム用画面デザインモック
 ===
-
-💄 In this repository, I tried to study Bootstrap 5.1 and making calendar design without any libraries such as FullCalendar.
 
 https://user-images.githubusercontent.com/28250432/154175414-28294cef-3086-4e24-b87a-148a1310f89d.mp4
 
-## Bootstrap v5
+## Main htmls
 
-- https://getbootstrap.com/docs/5.1/migration/
+- index.html
+- application.html
 
-There are some differences and breaking changes between v4 and v5. For example, `.right-*` is renamed to `.end-*`. It's interesting.
+## Dependencies
 
-![migrating](https://user-images.githubusercontent.com/28250432/153972507-98fdddf3-44af-4148-8f67-cd2eb0ec4b02.png)
+- Bootstrap 5.1 (Now, htmls import cdn)
+- Font Awesome 5.14.0 (Same as above)
+- Some css files such as common.css and overwrite-*.css (They are in this repository)
 
-## New things in this repository
+## Comments
 
-- Tried to use `shadow`,
-- Tried not to use `left` nor `right` but to use `start` and `end` those are new in v5,
-- Tried to use `d-grid` to make buttons block,
-- Tried not to use `my-1` to place spaces but to use `gy-1`,
-- Tried to create my original navbar with dropdown menu,
-- Tried to create calendar by myself,
-- Tried to overwrite Bootstrap default colors,
+- Html body contains three parts, `nav`, `main` and `footer`. `nav` and `footer` are common among two htmls.
+- No additional JavaScript.
