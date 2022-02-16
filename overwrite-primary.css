@@ -1,3 +1,7 @@
+/*
+  This css is in charge of overwrite Bootstrap color "primary."
+*/
+
 .alert-primary {
   color: #df0e24;
   background-color: #fff8f8;

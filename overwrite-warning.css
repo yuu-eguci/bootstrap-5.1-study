@@ -1,3 +1,7 @@
+/*
+  This css is in charge of overwrite Bootstrap color "warning."
+*/
+
 .alert-warning {
   color: #225262;
   background-color: #d9ebf1;

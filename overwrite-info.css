@@ -1,3 +1,7 @@
+/*
+  This css is in charge of overwrite Bootstrap color "info."
+*/
+
 .alert-info {
   color: #906205;
   background-color: #fdf3de;
