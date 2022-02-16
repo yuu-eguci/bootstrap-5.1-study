@@ -1,6 +1,8 @@
 Page mock
 ===
 
+https://user-images.githubusercontent.com/28250432/154175414-28294cef-3086-4e24-b87a-148a1310f89d.mp4
+
 ## Main htmls
 
 - index.html
