@@ -3,7 +3,7 @@ Bootstrap 5.1 design study
 
 💄 In this repository, I tried to study Bootstrap 5.1 and making calendar design without any libraries such as FullCalendar.
 
-![readme](https://user-images.githubusercontent.com/28250432/153994944-983705fa-7d94-40f6-8590-288d47a9251b.png)
+https://user-images.githubusercontent.com/28250432/154175414-28294cef-3086-4e24-b87a-148a1310f89d.mp4
 
 ## Bootstrap v5
 
