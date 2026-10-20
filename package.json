@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-5.1-study",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lint": "html-validate \"*.html\" && stylelint \"*.css\"",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "html-validate": "11.16.4",
+    "stylelint": "17.16.0",
+    "stylelint-config-standard": "40.0.0"
+  }
+}
