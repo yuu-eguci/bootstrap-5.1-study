@@ -34,6 +34,16 @@ for (const page of pages) {
     assert.doesNotMatch(html, /\b(?:ml|mr|pl|pr)-(?:auto|\d)\b/);
     assert.doesNotMatch(html, /\sdata-(?:toggle|display)=/);
   });
+
+  test(`${page}: headings start with one h1 and do not skip levels`, () => {
+    const levels = [...read(page).matchAll(/<h([1-6])\b/g)].map(([, level]) => Number(level));
+    assert.equal(levels.filter((level) => level === 1).length, 1);
+    assert.equal(levels[0], 1);
+    levels.reduce((previous, level) => {
+      assert.ok(level <= previous + 1, `h${previous} -> h${level}`);
+      return level;
+    });
+  });
 }
 
 // Spacing classes are tuned per page, so this compares the contents without the opening tag.

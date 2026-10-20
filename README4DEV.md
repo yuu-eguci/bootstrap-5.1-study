@@ -32,7 +32,7 @@ docker compose run --rm tools npm test
 ```
 
 - Lint: html-validate (htmls) and stylelint (css)
-- Test: node:test checks the html structure (SRI of cdn assets, local assets exist, common `nav` and `footer`, no Bootstrap 4 leftovers)
+- Test: node:test checks the html structure (SRI of cdn assets, local assets exist, common `nav` and `footer`, heading levels, no Bootstrap 4 leftovers)
 
 ## CI and deployment
 
