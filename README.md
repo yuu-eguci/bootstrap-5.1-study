@@ -3,6 +3,22 @@ Bootstrap 5.1 design study
 
 💄 In this repository, I tried to study Bootstrap 5.1 and making calendar design without any libraries such as FullCalendar.
 
+- Docker: 対応!
+- Node.js: 24! (lint と test 用)
+- Linter: html-validate, stylelint!
+- Test: node:test!
+- Bootstrap: 5.1.3!
+- Font Awesome: 5.15.4!
+
+## パッと実行してみたい
+
+```bash
+docker compose up --build web
+# http://localhost:8080 を開く
+```
+
+lint と test のやり方は [README4DEV.md](./README4DEV.md) にあるよ。
+
 https://user-images.githubusercontent.com/28250432/154175414-28294cef-3086-4e24-b87a-148a1310f89d.mp4
 
 ## Bootstrap v5
