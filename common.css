@@ -7,18 +7,20 @@ body {
 /*
   These styles are for dropdown in the navbar.
   When mobile size, dropdown-menu gets w-100.
-  NOTE: 576px is "sm" of Bootstrap.
+  NOTE: 576px is "sm" of Bootstrap, so this applies below "sm".
 */
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
   /* .position-static */
   nav li.dropdown {
     position: static !important;
   }
+
   /* .w-100 */
   nav div.dropdown-menu {
     width: 99% !important;
   }
 }
+
 /*
   When normal.
 */
@@ -29,4 +31,23 @@ nav div.dropdown-menu {
 /* For table. */
 table td:hover {
   background-color: #ffe2e5;
+}
+
+/* For calendar in index.html. */
+.calendar {
+  table-layout: fixed;
+}
+
+/* NOTE: .table is repeated to win over ".table > :not(:first-child)" of Bootstrap. */
+.calendar.table > thead,
+.calendar.table > tbody {
+  border: #f9f9f9 1px solid;
+}
+
+.calendar th {
+  width: 14.3%;
+}
+
+.calendar-day {
+  min-height: 110px;
 }

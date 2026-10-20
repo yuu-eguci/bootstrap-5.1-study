@@ -8,22 +8,8 @@
   border-color: #fdecca;
 }
 
-.alert-info hr {
-  border-top-color: #fce3b1;
-}
-
 .alert-info .alert-link {
   color: #5f4003;
-}
-
-.badge-info {
-  color: #212529;
-  background-color: #F7AD19;
-}
-
-.badge-info[href]:hover, .badge-info[href]:focus {
-  color: #212529;
-  background-color: #d59007;
 }
 
 .bg-info {
@@ -53,7 +39,7 @@ button.bg-info:focus {
 }
 
 .btn-info:focus, .btn-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 173, 25, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(247 173 25 / 50%);
 }
 
 .btn-info.disabled, .btn-info:disabled {
@@ -69,7 +55,7 @@ button.bg-info:focus {
 }
 
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus, .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 173, 25, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(247 173 25 / 50%);
 }
 
 .btn-outline-info {
@@ -85,7 +71,7 @@ button.bg-info:focus {
 }
 
 .btn-outline-info:focus, .btn-outline-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 173, 25, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(247 173 25 / 50%);
 }
 
 .btn-outline-info.disabled, .btn-outline-info:disabled {
@@ -100,7 +86,7 @@ button.bg-info:focus {
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(247, 173, 25, 0.5);
+  box-shadow: 0 0 0 0.2rem rgb(247 173 25 / 50%);
 }
 
 .list-group-item-info {
